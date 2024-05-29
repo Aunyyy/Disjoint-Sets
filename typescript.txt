@@ -1,0 +1,320 @@
+$  ./asn2.sh infile.txt
+Question 1:
+
+000000000111100000000000000000000000000000000000000000000000000000000110111
+111111111000000000000000000000000000000000000000000000000000000000001110001
+111111111000000000000000000000000000000000000000000000000000000000001110111
+111111110000000000000000000000000000000000000000000000000000000000001110100
+111111100000000000000000000000000000000000000000000000000000000000011110111
+111111000110000000000000000000000000000000000000000000000000000000011110000
+111110001100000000000000000000000000000000000000000000000000000000011110111
+011100011000000000000000000000000000000000000000000000000000000000111110101
+011000110000000000000000001110000000000000000000000000000000000100111110101
+011001100000000000101111000000000000000000000000000000000000011001111110101
+011111000010000000001111000001111111100000000000000000000001110001111110111
+011111000100000000011111101111111111000000000000000000001111100011111110000
+001110000000000000101111111111111110000000000000000000111110000111111110111
+001100010000000101111111111111111100000000000000000000111000001111111110001
+011100110000000111111111111111111000000000000000000110000000011111111110111
+010001110100111111111111111111100000000000000000011100000000111111111110100
+010011011101111111111111111110100000000000000000111000000001111111111110111
+010010011001111111111111111110100000000000000000111100000011111111111110000
+011110110111111111111111111111000000000000000000011110001111111111111100111
+011111001111111111111111111111000000000000000000011110001111111111111100101
+111111011111111111111111111100000000000000000000011110001111111111111000111
+111111111111111111111111110000000000000000000000001111001111111111111000101
+111001111111111111111111100000000000000000000000001111001111111111110000111
+111001111111111111111011000000000000000000000000001111001111111111110000000
+100011111111111111111110000000000000000000000000001111101111111111110000000
+100011111111111111111110000000000000000000000000001111101111111111100000000
+001111111111111111111010000000010000000000000000001111101111111111100000000
+001111111111111111111100000000111110000000000000001111101111111111100000000
+011111111111111111110000000000000111100000000000111111100111111111000000000
+111111111111111111110000000111111111110000000011111111100111111111000000000
+111111111111111111100000001111111111010000000111111111110111111111000000000
+111111111111111111000000011111110111110000001111111111110111111110000000000
+111111111111111111000000011111110011111000011111011111110111111110000000000
+111111111111111110000000111111100001111000010110011111110111111110000000000
+111111111111111100000001000111000000111000000000111111110111111100000000000
+111110011111111110000010000001100000111000000011111111110111111100000000000
+111111011111111100001110000000000000001100000001111111110111111100000000000
+111111011111111000011110000000000000001100000000111111110111111100000000000
+111110111111110000011110000000000000001100000000111111110011111000000000000
+111111101111111000111110000000000000000100000000111111110011111000000000000
+111111100111100001111110000000000000000100000000111111110011111000000000000
+111111111111110001111110000000000000001100000000011111110011110000000000000
+111111101011000011111110000000000000001100000000111111110011110000000000000
+111111101111100011111111000000000000001100000000011111110011110000000000000
+111110111110000111111111000000000001100100000000111111110011100000000000000
+111111111100001111111111000000000001100110000000111111111001100000000000000
+111110111100011111111111000000000001111111000000111111111001100000000000000
+111111111100011111111111000000000000011110000001111111111001100000000000000
+101111100100111111111111100000000000000000000001111111111001000000000000000
+111110000101111111111111000000000000000000000001111111111001000000000000000
+111110001001111111111111100000000000000000000011111111111001000000000000000
+011000011011111111111111100000000000000000000011111111111000000000000000000
+110000010111111111111111110000111001111101110111111111111100000000000000000
+110000100111111111111111110000111111111101100111111111111100000000000000000
+100001001111111111111111111000011111000000001111111111111100000000000000000
+100000011111111111111111111000000111100000001111111111111100000000000000000
+000000111111111111111111111000000011111100011111111111111100000000000000000
+110001111111111111111111111100000000000000011111111111111100000000000000000
+110001111111111111111111111100000000000000111111111111111100000000000000000
+111011111111111111111111111110000000000000111111111111111100000000000000000
+011111111111111111111111111111000000000000111111111111111100000000000000000
+000011111111111111111111111111100000000001111111111111111100000000000000000
+001001111111111111111111111110000000000000111111111111111100110000000000000
+101100111111111111111111111100000000000000000111111111111100001111100000000
+111100011111111111111111111111000000000000000011111111111100000011111110000
+110001011111111111111111111110000000000000000000111111111100000000111110000
+110001101111111111111111111110000000000000000000011111111100000000001110000
+100001010111111111111111111110000000000000000000000111111000000000000000000
+110001011111111111111111111100000000000000000000000111111000000000000000000
+110001101111111111111111111000000000000000000000000011111000000000000000000
+111000110111111111111111111000000000000000000000000001111000000000000000000
+111000110111111111111111111100000000000000000000000001111000000000000000000
+
+Question 2:
+
+         aaaa                                                        bb ccc
+aaaaaaaaa                                                           bbb   c
+aaaaaaaaa                                                           bbb ccc
+aaaaaaaa                                                            bbb c  
+aaaaaaa                                                            bbbb ccc
+aaaaaa   aa                                                        bbbb    
+aaaaa   aa                                                         bbbb ddd
+ aaa   aa                                                         bbbbb d d
+ aa   aa                  eee                                  f  bbbbb d d
+ aa  aa           g aaaa                                     ff  bbbbbb d d
+ aaaaa    h         aaaa     aaaaaaaa                      fff   bbbbbb ddd
+ aaaaa   h         aaaaaa aaaaaaaaaa                    fffff   bbbbbbb    
+  aaa             a aaaaaaaaaaaaaaa                   fffff    bbbbbbbb iii
+  aa   a       a aaaaaaaaaaaaaaaaa                    fff     bbbbbbbbb   i
+ aaa  aa       aaaaaaaaaaaaaaaaaa                  jj        bbbbbbbbbb iii
+ a   aaa a  aaaaaaaaaaaaaaaaaaa                  jjj        bbbbbbbbbbb i  
+ a  aa aaa aaaaaaaaaaaaaaaaaa a                 jjj        bbbbbbbbbbbb iii
+ a  a  aa  aaaaaaaaaaaaaaaaaa a                 jjjj      bbbbbbbbbbbbb    
+ aaaa aa aaaaaaaaaaaaaaaaaaaaa                   jjjj   bbbbbbbbbbbbbb  kkk
+ aaaaa  aaaaaaaaaaaaaaaaaaaaaa                   jjjj   bbbbbbbbbbbbbb  k k
+aaaaaa aaaaaaaaaaaaaaaaaaaaa                     jjjj   bbbbbbbbbbbbb   kkk
+aaaaaaaaaaaaaaaaaaaaaaaaaa                        jjjj  bbbbbbbbbbbbb   k k
+aaa  aaaaaaaaaaaaaaaaaaaa                         jjjj  bbbbbbbbbbbb    kkk
+aaa  aaaaaaaaaaaaaaaa aa                          jjjj  bbbbbbbbbbbb       
+a   aaaaaaaaaaaaaaaaaaa                           jjjjj bbbbbbbbbbbb       
+a   aaaaaaaaaaaaaaaaaaa                           jjjjj bbbbbbbbbbb        
+  aaaaaaaaaaaaaaaaaaa a        a                  jjjjj bbbbbbbbbbb        
+  aaaaaaaaaaaaaaaaaaaa        aaaaa               jjjjj bbbbbbbbbbb        
+ aaaaaaaaaaaaaaaaaaa             aaaa           jjjjjjj  bbbbbbbbb         
+aaaaaaaaaaaaaaaaaaaa       aaaaaaaaaaa        jjjjjjjjj  bbbbbbbbb         
+aaaaaaaaaaaaaaaaaaa       aaaaaaaaaa a       jjjjjjjjjjj bbbbbbbbb         
+aaaaaaaaaaaaaaaaaa       aaaaaaa aaaaa      jjjjjjjjjjjj bbbbbbbb          
+aaaaaaaaaaaaaaaaaa       aaaaaaa  aaaaa    jjjjj jjjjjjj bbbbbbbb          
+aaaaaaaaaaaaaaaaa       aaaaaaa    aaaa    j jj  jjjjjjj bbbbbbbb          
+aaaaaaaaaaaaaaaa       a   aaa      aaa         jjjjjjjj bbbbbbb           
+aaaaa  aaaaaaaaaa     a      aa     aaa       jjjjjjjjjj bbbbbbb           
+aaaaaa aaaaaaaaa    aaa               aa       jjjjjjjjj bbbbbbb           
+aaaaaa aaaaaaaa    aaaa               aa        jjjjjjjj bbbbbbb           
+aaaaa aaaaaaaa     aaaa               aa        jjjjjjjj  bbbbb            
+aaaaaaa aaaaaaa   aaaaa                a        jjjjjjjj  bbbbb            
+aaaaaaa  aaaa    aaaaaa                a        jjjjjjjj  bbbbb            
+aaaaaaaaaaaaaa   aaaaaa               aa         jjjjjjj  bbbb             
+aaaaaaa a aa    aaaaaaa               aa        jjjjjjjj  bbbb             
+aaaaaaa aaaaa   aaaaaaaa              aa         jjjjjjj  bbbb             
+aaaaa aaaaa    aaaaaaaaa           aa  a        jjjjjjjj  bbb              
+aaaaaaaaaa    aaaaaaaaaa           aa  aa       jjjjjjjjj  bb              
+aaaaa aaaa   aaaaaaaaaaa           aaaaaaa      jjjjjjjjj  bb              
+aaaaaaaaaa   aaaaaaaaaaa             aaaa      jjjjjjjjjj  bb              
+a aaaaa  a  aaaaaaaaaaaaa                      jjjjjjjjjj  b               
+aaaaa    a aaaaaaaaaaaaa                       jjjjjjjjjj  b               
+aaaaa   a  aaaaaaaaaaaaaa                     jjjjjjjjjjj  b               
+ aa    aa aaaaaaaaaaaaaaa                     jjjjjjjjjjj                  
+aa     a aaaaaaaaaaaaaaaaa    lll  lllll mmm jjjjjjjjjjjjj                 
+aa    a  aaaaaaaaaaaaaaaaa    llllllllll mm  jjjjjjjjjjjjj                 
+a    a  aaaaaaaaaaaaaaaaaaa    lllll        jjjjjjjjjjjjjj                 
+a      aaaaaaaaaaaaaaaaaaaa      llll       jjjjjjjjjjjjjj                 
+      aaaaaaaaaaaaaaaaaaaaa       llllll   jjjjjjjjjjjjjjj                 
+aa   aaaaaaaaaaaaaaaaaaaaaaa               jjjjjjjjjjjjjjj                 
+aa   aaaaaaaaaaaaaaaaaaaaaaa              jjjjjjjjjjjjjjjj                 
+aaa aaaaaaaaaaaaaaaaaaaaaaaaa             jjjjjjjjjjjjjjjj                 
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaa            jjjjjjjjjjjjjjjj                 
+    aaaaaaaaaaaaaaaaaaaaaaaaaaa          jjjjjjjjjjjjjjjjj                 
+  n  aaaaaaaaaaaaaaaaaaaaaaaa             jjjjjjjjjjjjjjjj  oo             
+n nn  aaaaaaaaaaaaaaaaaaaaaa                 jjjjjjjjjjjjj    ooooo        
+nnnn   aaaaaaaaaaaaaaaaaaaaaaa                jjjjjjjjjjjj      ooooooo    
+nn   a aaaaaaaaaaaaaaaaaaaaaa                   jjjjjjjjjj        ooooo    
+nn   aa aaaaaaaaaaaaaaaaaaaaa                    jjjjjjjjj          ooo    
+n    a a aaaaaaaaaaaaaaaaaaaa                      jjjjjj                  
+nn   a aaaaaaaaaaaaaaaaaaaaa                       jjjjjj                  
+nn   aa aaaaaaaaaaaaaaaaaaa                         jjjjj                  
+nnn   aa aaaaaaaaaaaaaaaaaa                          jjjj                  
+nnn   aa aaaaaaaaaaaaaaaaaaa                         jjjj                  
+
+Question 3:
+
+Components sorted by size: 
+Label: a, Size: 1489
+Label: j, Size: 510
+Label: b, Size: 356
+Label: l, Size: 33
+Label: n, Size: 23
+Label: o, Size: 22
+Label: f, Size: 19
+Label: k, Size: 13
+Label: d, Size: 12
+Label: i, Size: 11
+Label: c, Size: 11
+Label: m, Size: 5
+Label: e, Size: 3
+Label: h, Size: 2
+Label: g, Size: 1
+
+Question 4:
+
+         aaaa                                                        bb ccc
+aaaaaaaaa                                                           bbb   c
+aaaaaaaaa                                                           bbb ccc
+aaaaaaaa                                                            bbb c  
+aaaaaaa                                                            bbbb ccc
+aaaaaa   aa                                                        bbbb    
+aaaaa   aa                                                         bbbb ddd
+ aaa   aa                                                         bbbbb d d
+ aa   aa                  eee                                  f  bbbbb d d
+ aa  aa            aaaa                                     ff  bbbbbb d d
+ aaaaa             aaaa     aaaaaaaa                      fff   bbbbbb ddd
+ aaaaa            aaaaaa aaaaaaaaaa                    fffff   bbbbbbb    
+  aaa             a aaaaaaaaaaaaaaa                   fffff    bbbbbbbb iii
+  aa   a       a aaaaaaaaaaaaaaaaa                    fff     bbbbbbbbb   i
+ aaa  aa       aaaaaaaaaaaaaaaaaa                  jj        bbbbbbbbbb iii
+ a   aaa a  aaaaaaaaaaaaaaaaaaa                  jjj        bbbbbbbbbbb i  
+ a  aa aaa aaaaaaaaaaaaaaaaaa a                 jjj        bbbbbbbbbbbb iii
+ a  a  aa  aaaaaaaaaaaaaaaaaa a                 jjjj      bbbbbbbbbbbbb    
+ aaaa aa aaaaaaaaaaaaaaaaaaaaa                   jjjj   bbbbbbbbbbbbbb  kkk
+ aaaaa  aaaaaaaaaaaaaaaaaaaaaa                   jjjj   bbbbbbbbbbbbbb  k k
+aaaaaa aaaaaaaaaaaaaaaaaaaaa                     jjjj   bbbbbbbbbbbbb   kkk
+aaaaaaaaaaaaaaaaaaaaaaaaaa                        jjjj  bbbbbbbbbbbbb   k k
+aaa  aaaaaaaaaaaaaaaaaaaa                         jjjj  bbbbbbbbbbbb    kkk
+aaa  aaaaaaaaaaaaaaaa aa                          jjjj  bbbbbbbbbbbb       
+a   aaaaaaaaaaaaaaaaaaa                           jjjjj bbbbbbbbbbbb       
+a   aaaaaaaaaaaaaaaaaaa                           jjjjj bbbbbbbbbbb        
+  aaaaaaaaaaaaaaaaaaa a        a                  jjjjj bbbbbbbbbbb        
+  aaaaaaaaaaaaaaaaaaaa        aaaaa               jjjjj bbbbbbbbbbb        
+ aaaaaaaaaaaaaaaaaaa             aaaa           jjjjjjj  bbbbbbbbb         
+aaaaaaaaaaaaaaaaaaaa       aaaaaaaaaaa        jjjjjjjjj  bbbbbbbbb         
+aaaaaaaaaaaaaaaaaaa       aaaaaaaaaa a       jjjjjjjjjjj bbbbbbbbb         
+aaaaaaaaaaaaaaaaaa       aaaaaaa aaaaa      jjjjjjjjjjjj bbbbbbbb          
+aaaaaaaaaaaaaaaaaa       aaaaaaa  aaaaa    jjjjj jjjjjjj bbbbbbbb          
+aaaaaaaaaaaaaaaaa       aaaaaaa    aaaa    j jj  jjjjjjj bbbbbbbb          
+aaaaaaaaaaaaaaaa       a   aaa      aaa         jjjjjjjj bbbbbbb           
+aaaaa  aaaaaaaaaa     a      aa     aaa       jjjjjjjjjj bbbbbbb           
+aaaaaa aaaaaaaaa    aaa               aa       jjjjjjjjj bbbbbbb           
+aaaaaa aaaaaaaa    aaaa               aa        jjjjjjjj bbbbbbb           
+aaaaa aaaaaaaa     aaaa               aa        jjjjjjjj  bbbbb            
+aaaaaaa aaaaaaa   aaaaa                a        jjjjjjjj  bbbbb            
+aaaaaaa  aaaa    aaaaaa                a        jjjjjjjj  bbbbb            
+aaaaaaaaaaaaaa   aaaaaa               aa         jjjjjjj  bbbb             
+aaaaaaa a aa    aaaaaaa               aa        jjjjjjjj  bbbb             
+aaaaaaa aaaaa   aaaaaaaa              aa         jjjjjjj  bbbb             
+aaaaa aaaaa    aaaaaaaaa           aa  a        jjjjjjjj  bbb              
+aaaaaaaaaa    aaaaaaaaaa           aa  aa       jjjjjjjjj  bb              
+aaaaa aaaa   aaaaaaaaaaa           aaaaaaa      jjjjjjjjj  bb              
+aaaaaaaaaa   aaaaaaaaaaa             aaaa      jjjjjjjjjj  bb              
+a aaaaa  a  aaaaaaaaaaaaa                      jjjjjjjjjj  b               
+aaaaa    a aaaaaaaaaaaaa                       jjjjjjjjjj  b               
+aaaaa   a  aaaaaaaaaaaaaa                     jjjjjjjjjjj  b               
+ aa    aa aaaaaaaaaaaaaaa                     jjjjjjjjjjj                  
+aa     a aaaaaaaaaaaaaaaaa    lll  lllll mmm jjjjjjjjjjjjj                 
+aa    a  aaaaaaaaaaaaaaaaa    llllllllll mm  jjjjjjjjjjjjj                 
+a    a  aaaaaaaaaaaaaaaaaaa    lllll        jjjjjjjjjjjjjj                 
+a      aaaaaaaaaaaaaaaaaaaa      llll       jjjjjjjjjjjjjj                 
+      aaaaaaaaaaaaaaaaaaaaa       llllll   jjjjjjjjjjjjjjj                 
+aa   aaaaaaaaaaaaaaaaaaaaaaa               jjjjjjjjjjjjjjj                 
+aa   aaaaaaaaaaaaaaaaaaaaaaa              jjjjjjjjjjjjjjjj                 
+aaa aaaaaaaaaaaaaaaaaaaaaaaaa             jjjjjjjjjjjjjjjj                 
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaa            jjjjjjjjjjjjjjjj                 
+    aaaaaaaaaaaaaaaaaaaaaaaaaaa          jjjjjjjjjjjjjjjjj                 
+  n  aaaaaaaaaaaaaaaaaaaaaaaa             jjjjjjjjjjjjjjjj  oo             
+n nn  aaaaaaaaaaaaaaaaaaaaaa                 jjjjjjjjjjjjj    ooooo        
+nnnn   aaaaaaaaaaaaaaaaaaaaaaa                jjjjjjjjjjjj      ooooooo    
+nn   a aaaaaaaaaaaaaaaaaaaaaa                   jjjjjjjjjj        ooooo    
+nn   aa aaaaaaaaaaaaaaaaaaaaa                    jjjjjjjjj          ooo    
+n    a a aaaaaaaaaaaaaaaaaaaa                      jjjjjj                  
+nn   a aaaaaaaaaaaaaaaaaaaaa                       jjjjjj                  
+nn   aa aaaaaaaaaaaaaaaaaaa                         jjjjj                  
+nnn   aa aaaaaaaaaaaaaaaaaa                          jjjj                  
+nnn   aa aaaaaaaaaaaaaaaaaaa                         jjjj                  
+
+Question 5:
+
+         aaaa                                                        bb 
+aaaaaaaaa                                                           bbb   
+aaaaaaaaa                                                           bbb 
+aaaaaaaa                                                            bbb   
+aaaaaaa                                                            bbbb 
+aaaaaa   aa                                                        bbbb    
+aaaaa   aa                                                         bbbb ddd
+ aaa   aa                                                         bbbbb d d
+ aa   aa                                                    f  bbbbb d d
+ aa  aa            aaaa                                     ff  bbbbbb d d
+ aaaaa             aaaa     aaaaaaaa                      fff   bbbbbb ddd
+ aaaaa            aaaaaa aaaaaaaaaa                    fffff   bbbbbbb    
+  aaa             a aaaaaaaaaaaaaaa                   fffff    bbbbbbbb 
+  aa   a       a aaaaaaaaaaaaaaaaa                    fff     bbbbbbbbb   
+ aaa  aa       aaaaaaaaaaaaaaaaaa                  jj        bbbbbbbbbb 
+ a   aaa a  aaaaaaaaaaaaaaaaaaa                  jjj        bbbbbbbbbbb   
+ a  aa aaa aaaaaaaaaaaaaaaaaa a                 jjj        bbbbbbbbbbbb 
+ a  a  aa  aaaaaaaaaaaaaaaaaa a                 jjjj      bbbbbbbbbbbbb    
+ aaaa aa aaaaaaaaaaaaaaaaaaaaa                   jjjj   bbbbbbbbbbbbbb  kkk
+ aaaaa  aaaaaaaaaaaaaaaaaaaaaa                   jjjj   bbbbbbbbbbbbbb  k k
+aaaaaa aaaaaaaaaaaaaaaaaaaaa                     jjjj   bbbbbbbbbbbbb   kkk
+aaaaaaaaaaaaaaaaaaaaaaaaaa                        jjjj  bbbbbbbbbbbbb   k k
+aaa  aaaaaaaaaaaaaaaaaaaa                         jjjj  bbbbbbbbbbbb    kkk
+aaa  aaaaaaaaaaaaaaaa aa                          jjjj  bbbbbbbbbbbb       
+a   aaaaaaaaaaaaaaaaaaa                           jjjjj bbbbbbbbbbbb       
+a   aaaaaaaaaaaaaaaaaaa                           jjjjj bbbbbbbbbbb        
+  aaaaaaaaaaaaaaaaaaa a        a                  jjjjj bbbbbbbbbbb        
+  aaaaaaaaaaaaaaaaaaaa        aaaaa               jjjjj bbbbbbbbbbb        
+ aaaaaaaaaaaaaaaaaaa             aaaa           jjjjjjj  bbbbbbbbb         
+aaaaaaaaaaaaaaaaaaaa       aaaaaaaaaaa        jjjjjjjjj  bbbbbbbbb         
+aaaaaaaaaaaaaaaaaaa       aaaaaaaaaa a       jjjjjjjjjjj bbbbbbbbb         
+aaaaaaaaaaaaaaaaaa       aaaaaaa aaaaa      jjjjjjjjjjjj bbbbbbbb          
+aaaaaaaaaaaaaaaaaa       aaaaaaa  aaaaa    jjjjj jjjjjjj bbbbbbbb          
+aaaaaaaaaaaaaaaaa       aaaaaaa    aaaa    j jj  jjjjjjj bbbbbbbb          
+aaaaaaaaaaaaaaaa       a   aaa      aaa         jjjjjjjj bbbbbbb           
+aaaaa  aaaaaaaaaa     a      aa     aaa       jjjjjjjjjj bbbbbbb           
+aaaaaa aaaaaaaaa    aaa               aa       jjjjjjjjj bbbbbbb           
+aaaaaa aaaaaaaa    aaaa               aa        jjjjjjjj bbbbbbb           
+aaaaa aaaaaaaa     aaaa               aa        jjjjjjjj  bbbbb            
+aaaaaaa aaaaaaa   aaaaa                a        jjjjjjjj  bbbbb            
+aaaaaaa  aaaa    aaaaaa                a        jjjjjjjj  bbbbb            
+aaaaaaaaaaaaaa   aaaaaa               aa         jjjjjjj  bbbb             
+aaaaaaa a aa    aaaaaaa               aa        jjjjjjjj  bbbb             
+aaaaaaa aaaaa   aaaaaaaa              aa         jjjjjjj  bbbb             
+aaaaa aaaaa    aaaaaaaaa           aa  a        jjjjjjjj  bbb              
+aaaaaaaaaa    aaaaaaaaaa           aa  aa       jjjjjjjjj  bb              
+aaaaa aaaa   aaaaaaaaaaa           aaaaaaa      jjjjjjjjj  bb              
+aaaaaaaaaa   aaaaaaaaaaa             aaaa      jjjjjjjjjj  bb              
+a aaaaa  a  aaaaaaaaaaaaa                      jjjjjjjjjj  b               
+aaaaa    a aaaaaaaaaaaaa                       jjjjjjjjjj  b               
+aaaaa   a  aaaaaaaaaaaaaa                     jjjjjjjjjjj  b               
+ aa    aa aaaaaaaaaaaaaaa                     jjjjjjjjjjj                  
+aa     a aaaaaaaaaaaaaaaaa    lll  lllll  jjjjjjjjjjjjj                 
+aa    a  aaaaaaaaaaaaaaaaa    llllllllll   jjjjjjjjjjjjj                 
+a    a  aaaaaaaaaaaaaaaaaaa    lllll        jjjjjjjjjjjjjj                 
+a      aaaaaaaaaaaaaaaaaaaa      llll       jjjjjjjjjjjjjj                 
+      aaaaaaaaaaaaaaaaaaaaa       llllll   jjjjjjjjjjjjjjj                 
+aa   aaaaaaaaaaaaaaaaaaaaaaa               jjjjjjjjjjjjjjj                 
+aa   aaaaaaaaaaaaaaaaaaaaaaa              jjjjjjjjjjjjjjjj                 
+aaa aaaaaaaaaaaaaaaaaaaaaaaaa             jjjjjjjjjjjjjjjj                 
+ aaaaaaaaaaaaaaaaaaaaaaaaaaaaa            jjjjjjjjjjjjjjjj                 
+    aaaaaaaaaaaaaaaaaaaaaaaaaaa          jjjjjjjjjjjjjjjjj                 
+  n  aaaaaaaaaaaaaaaaaaaaaaaa             jjjjjjjjjjjjjjjj  oo             
+n nn  aaaaaaaaaaaaaaaaaaaaaa                 jjjjjjjjjjjjj    ooooo        
+nnnn   aaaaaaaaaaaaaaaaaaaaaaa                jjjjjjjjjjjj      ooooooo    
+nn   a aaaaaaaaaaaaaaaaaaaaaa                   jjjjjjjjjj        ooooo    
+nn   aa aaaaaaaaaaaaaaaaaaaaa                    jjjjjjjjj          ooo    
+n    a a aaaaaaaaaaaaaaaaaaaa                      jjjjjj                  
+nn   a aaaaaaaaaaaaaaaaaaaaa                       jjjjjj                  
+nn   aa aaaaaaaaaaaaaaaaaaa                         jjjjj                  
+nnn   aa aaaaaaaaaaaaaaaaaa                          jjjj                  
+nnn   aa aaaaaaaaaaaaaaaaaaa                         jjjj                  
+[]$ exit
